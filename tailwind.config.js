@@ -3,7 +3,7 @@
 module.exports = {
   mode: 'jit',
   content: [
-    './src/index.html'
+    './index.html'
   ],
   theme: {
     extend: {
@@ -13,6 +13,9 @@ module.exports = {
       },
       fontFamily: {
         Lora: ["Lora", "serif"]
+      },
+      screens: {
+        'mdnav': '1100px'
       }
     },
   },
