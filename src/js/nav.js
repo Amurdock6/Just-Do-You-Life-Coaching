@@ -1,11 +1,13 @@
 
 // Nav Bar JS Dynamic Styling
+const burgerXButton = document.querySelector("#burgerXButton");
 const burger = document.querySelector("#burger");
 const menu = document.querySelector("#menu");
 const nav = document.querySelector("#nav");
+const x = document.querySelector("#nav-x");
 const burgerWrapper = document.querySelector("#logo-and-hamburger");
 
-burger.addEventListener('click', () => {
+burgerXButton.addEventListener('click', () => {
     if(menu.classList.contains('hidden')) {
         menu.classList.remove('hidden');
         menu.classList.add('flex');
@@ -17,6 +19,8 @@ burger.addEventListener('click', () => {
         burgerWrapper.classList.remove('items-center');
         burger.classList.add('items-center');
         burger.classList.add('flex');
+        burger.classList.add('hidden');
+        x.classList.remove('hidden');
     } else {
         menu.classList.add('hidden');
         menu.classList.remove('flex');
@@ -28,7 +32,8 @@ burger.addEventListener('click', () => {
         burgerWrapper.classList.add('items-center');
         burger.classList.remove('items-center');
         burger.classList.remove('flex');
-
+        burger.classList.remove('hidden');
+        x.classList.add('hidden');
     }
 });
 

@@ -19,6 +19,15 @@ module.exports = {
       },
       screens: {
         'mdnav': '1100px'
+      },
+      height: {
+        '80vh': '80vh'
+      },
+      margin: {
+        '4.30rem': '4.30rem'
+      },
+      gridTemplateColumns: {
+        'customcolumns': '75% 25%'
       }
     },
   },
