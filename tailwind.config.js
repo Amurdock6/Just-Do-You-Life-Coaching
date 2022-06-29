@@ -23,6 +23,9 @@ module.exports = {
       height: {
         '80vh': '80vh'
       },
+      width: {
+        '41rem': '41rem'
+      },
       margin: {
         '4.30rem': '4.30rem'
       },
