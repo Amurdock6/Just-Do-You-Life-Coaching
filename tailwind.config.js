@@ -24,7 +24,7 @@ module.exports = {
         '80vh': '80vh'
       },
       width: {
-        '41rem': '41rem'
+        '32vw': '32vw'
       },
       margin: {
         '4.30rem': '4.30rem'

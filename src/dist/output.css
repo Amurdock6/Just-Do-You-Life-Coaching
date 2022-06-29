@@ -637,6 +637,10 @@ video {
   margin-left: 1rem;
 }
 
+.mb-12{
+  margin-bottom: 3rem;
+}
+
 .block{
   display: block;
 }
@@ -685,8 +689,8 @@ video {
   width: 60%;
 }
 
-.w-41rem{
-  width: 41rem;
+.w-32vw{
+  width: 32vw;
 }
 
 .transform{
@@ -729,8 +733,8 @@ video {
   overflow: hidden;
 }
 
-.overflow-x-hidden{
-  overflow-x: hidden;
+.rounded-sm{
+  border-radius: 0.125rem;
 }
 
 .border-b-2{
