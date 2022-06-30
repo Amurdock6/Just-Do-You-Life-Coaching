@@ -18,13 +18,17 @@ module.exports = {
         Lora: ["Lora", "serif"]
       },
       screens: {
-        'mdnav': '1100px'
+        'mdnav': '1100px',
+        'svg': '1370px'
       },
       height: {
-        '80vh': '80vh'
+        '80vh': '80vh',
       },
       width: {
         '32vw': '32vw'
+      },
+      top: {
+        '-14vh': '-14vh'
       },
       margin: {
         '4.30rem': '4.30rem'
