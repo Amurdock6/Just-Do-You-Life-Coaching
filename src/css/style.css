@@ -600,3 +600,112 @@ video {
     display: block;
   }
 }
+
+
+/* testamonials */
+#wrapper {
+  width: 100%;
+  max-width: 1600px;
+  position: relative;
+}
+
+#carousel {
+  overflow: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+#carousel::-webkit-scrollbar {
+  height: 0;
+}
+
+#prev,
+#next {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: white;
+  border: none;
+  padding: 8px;
+  border-radius: 50%;
+  outline: 0;
+  cursor: pointer;
+  position: absolute;
+}
+
+#prev {
+  top: 50%;
+  left: 0;
+  transform: translate(50%, -50%);
+  display: none;
+}
+
+#next {
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
+
+#content {
+  display: grid;
+  grid-gap: 16px;
+  grid-auto-flow: column;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.item {
+  width: 526px;
+  height: auto;
+  background: #008080;
+}
+
+@media (max-width: 1650px) {
+  #wrapper {
+    max-width: 1100px;
+  }
+}
+
+@media (max-width: 1300px) {
+  #wrapper {
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 950px) {
+  #wrapper {
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 700px) {
+  #wrapper {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 510px) {
+  #wrapper {
+    max-width: 380px;
+  }
+
+  .item {
+    width: 330px;
+  }
+}
+
+@media (max-width: 400px){
+  #wrapper {
+    max-width: 330px;
+  }
+}
+
+@media (max-width: 359px) {
+  #wrapper {
+    max-width: 265px;
+  }
+
+  .item {
+    width: 280px;
+  }
+}

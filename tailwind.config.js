@@ -31,7 +31,8 @@ module.exports = {
         '32vw': '32vw'
       },
       top: {
-        '-14vh': '-14vh'
+        '-14vh': '-14vh',
+        'customrem': '4.5rem'
       },
       margin: {
         '4.30rem': '4.30rem'
