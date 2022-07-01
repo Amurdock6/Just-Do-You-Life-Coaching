@@ -19,7 +19,10 @@ module.exports = {
       },
       screens: {
         'mdnav': '1100px',
-        'svg': '1370px'
+        'svg': '1370px',
+        'footerscreen': '1255px',
+        'xsm': '484px',
+        'sxsm': '340px'
       },
       height: {
         '80vh': '80vh',
