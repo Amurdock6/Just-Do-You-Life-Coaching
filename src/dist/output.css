@@ -577,6 +577,14 @@ video {
   bottom: 0.25rem;
 }
 
+.top-10\.75{
+  top: 10.75rem;
+}
+
+.top-10{
+  top: 2.5rem;
+}
+
 .top-1\/2{
   top: 50%;
 }
@@ -1097,6 +1105,12 @@ video {
   }
 }
 
+@media (min-width: 2400px){
+  .lgxl\:mb-36{
+    margin-bottom: 9rem;
+  }
+}
+
 @media (min-width: 1100px){
   .mdnav\:relative{
     position: relative;
@@ -1149,6 +1163,10 @@ video {
 
   .mdnav\:ml-56{
     margin-left: 14rem;
+  }
+
+  .mdnav\:mt-32{
+    margin-top: 8rem;
   }
 
   .mdnav\:mt-0{
@@ -1255,6 +1273,12 @@ video {
   .svg\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+}
+
+@media (min-width: 511px){
+  .testomnial\:top-18{
+    top: 4.5rem;
   }
 }
 

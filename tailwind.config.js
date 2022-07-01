@@ -18,9 +18,11 @@ module.exports = {
         Lora: ["Lora", "serif"]
       },
       screens: {
+        'lgxl': '2400px',
         'mdnav': '1100px',
         'svg': '1370px',
         'footerscreen': '1255px',
+        'testomnial': '511px',
         'xsm': '484px',
         'sxsm': '340px'
       },
@@ -31,8 +33,11 @@ module.exports = {
         '32vw': '32vw'
       },
       top: {
-        '-14vh': '-14vh',
-        'customrem': '4.5rem'
+        '-14vh': '-14vh'
+      },
+      inset: {
+        '18': '4.5rem',
+        '10.75': '10.75rem'
       },
       margin: {
         '4.30rem': '4.30rem'
