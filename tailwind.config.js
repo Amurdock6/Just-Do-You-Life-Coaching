@@ -28,9 +28,11 @@ module.exports = {
       },
       height: {
         '80vh': '80vh',
+        '75vh': '75vh'
       },
       width: {
-        '32vw': '32vw'
+        '32vw': '32vw',
+        '100': '400px'
       },
       top: {
         '-14vh': '-14vh'
@@ -44,6 +46,13 @@ module.exports = {
       },
       gridTemplateColumns: {
         'customcolumns': '75% 25%'
+      },
+      backgroundImage: {
+        'topographic': "url('/src/images/topographic.webp')"
+      },
+      boxShadow: {
+        '3xl': ' 0px 0px 20px 0px #000000',
+        'hover': '0px 0px 27px 11px #000000'
       }
     },
   },
