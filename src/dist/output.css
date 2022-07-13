@@ -767,10 +767,6 @@ video {
   grid-auto-flow: column;
 }
 
-.flex-row{
-  flex-direction: row;
-}
-
 .flex-col{
   flex-direction: column;
 }
@@ -1252,6 +1248,10 @@ video {
     top: -8rem;
   }
 
+  .mdnav\:right-32{
+    right: 8rem;
+  }
+
   .mdnav\:mx-4{
     margin-left: 1rem;
     margin-right: 1rem;
@@ -1303,6 +1303,10 @@ video {
 
   .mdnav\:mt-40{
     margin-top: 10rem;
+  }
+
+  .mdnav\:mr-8{
+    margin-right: 2rem;
   }
 
   .mdnav\:block{
@@ -1369,6 +1373,10 @@ video {
     padding-bottom: 0px;
   }
 
+  .mdnav\:pr-8{
+    padding-right: 2rem;
+  }
+
   .mdnav\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -1386,11 +1394,6 @@ video {
 }
 
 @media (min-width: 800px){
-  .prodchange\:my-5{
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
-  }
-
   .prodchange\:flex-row{
     flex-direction: row;
   }
