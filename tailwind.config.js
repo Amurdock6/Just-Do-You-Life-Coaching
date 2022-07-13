@@ -19,15 +19,17 @@ module.exports = {
       },
       screens: {
         'lgxl': '2400px',
-        'mdnav': '1100px',
         'svg': '1370px',
         'footerscreen': '1255px',
+        'mdnav': '1100px',
+        'mdprodcard': '1001px',
+        'prodchange': '800px',
         'testomnial': '511px',
         'xsm': '484px',
         'sxsm': '340px'
       },
       height: {
-        '80vh': '80vh',
+        '80vh': '85vh',
         '75vh': '75vh'
       },
       width: {
@@ -39,7 +41,9 @@ module.exports = {
       },
       inset: {
         '18': '4.5rem',
-        '10.75': '10.75rem'
+        '10.75': '10.75rem',
+        '12.5': '3.25rem',
+        '22': '5.5rem'
       },
       margin: {
         '4.30rem': '4.30rem'

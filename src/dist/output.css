@@ -585,6 +585,14 @@ video {
   top: 2.5rem;
 }
 
+.top-22{
+  top: 5.5rem;
+}
+
+.top-40{
+  top: 10rem;
+}
+
 .top-1\/2{
   top: 50%;
 }
@@ -716,11 +724,7 @@ video {
 }
 
 .h-80vh{
-  height: 80vh;
-}
-
-.h-75vh{
-  height: 75vh;
+  height: 85vh;
 }
 
 .h-5\/6{
@@ -817,10 +821,6 @@ video {
 
 .rounded-sm{
   border-radius: 0.125rem;
-}
-
-.rounded-xl{
-  border-radius: 0.75rem;
 }
 
 .rounded-t-lg{
@@ -1094,16 +1094,8 @@ video {
   transition-duration: 500ms;
 }
 
-.duration-300{
-  transition-duration: 300ms;
-}
-
 .ease-out{
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
-}
-
-.hover\:w-100:hover{
-  width: 400px;
 }
 
 .hover\:border-b-2:hover{
@@ -1130,10 +1122,6 @@ video {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
-}
-
-.hover\:duration-300:hover{
-  transition-duration: 300ms;
 }
 
 .hover\:duration-500:hover{
@@ -1225,6 +1213,25 @@ video {
 @media (min-width: 2400px){
   .lgxl\:mb-36{
     margin-bottom: 9rem;
+  }
+}
+
+@media (min-width: 1370px){
+  .svg\:-top-48{
+    top: -12rem;
+  }
+
+  .svg\:right-64{
+    right: 16rem;
+  }
+
+  .svg\:block{
+    display: block;
+  }
+
+  .svg\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
 
@@ -1378,28 +1385,28 @@ video {
   }
 }
 
-@media (min-width: 1370px){
-  .svg\:-top-48{
-    top: -12rem;
+@media (min-width: 800px){
+  .prodchange\:my-5{
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
   }
 
-  .svg\:right-64{
-    right: 16rem;
-  }
-
-  .svg\:block{
-    display: block;
-  }
-
-  .svg\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+  .prodchange\:flex-row{
+    flex-direction: row;
   }
 }
 
 @media (min-width: 511px){
   .testomnial\:top-18{
     top: 4.5rem;
+  }
+
+  .testomnial\:top-12\.5{
+    top: 3.25rem;
+  }
+
+  .testomnial\:top-12{
+    top: 3rem;
   }
 }
 

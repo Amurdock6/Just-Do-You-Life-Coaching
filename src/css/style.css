@@ -602,6 +602,237 @@ video {
 }
 
 
+/* prod cards */
+.prod-card-back {
+  height: 82vh;
+}
+
+.prod-card {
+  width: 24rem;
+}
+
+.prod-card:hover {
+  width: 400px;
+}
+
+.card-par1 {
+  margin-bottom: 8rem;
+}
+
+.card-par3{
+  margin-bottom: 8rem;
+}
+
+.prodheader{
+  font-size: 2.25rem;
+}
+
+@media (min-width: 2150px) {
+  .prod-card {
+    width: 30rem;
+  }
+  
+  .prod-card:hover {
+    width: 34rem;
+  }
+
+  .card-par1 {
+    margin-bottom: 7rem;
+  }
+  
+  .card-par3{
+    margin-bottom: 7rem;
+  }
+}
+
+@media (max-height: 850px) {
+  .prod-card-back {
+    height: 85vh;
+  }
+}
+
+@media (max-width: 1370px) {
+  .prod-card {
+    width: 25vw;
+  }
+
+  .prodheader{
+    font-size: 1.5rem;
+  }
+
+  .prod-card:hover {
+    width: 27vw;
+  }
+
+  .card-par {
+    font-size: small;
+  }
+
+  .card-par1 {
+    margin-bottom: 5rem;
+  }
+
+  .card-par3 {
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-width: 1281px) {
+  .card-par1 {
+    margin-bottom: 6rem;
+  }
+  
+  .card-par3{
+    margin-bottom: 6rem;
+  }
+}
+
+@media (width: 1024px) and (height: 600px) {
+  .prod-card-back {
+    height: 110vh;
+  }
+
+  .card-par1 {
+    margin-bottom: 8rem;
+  }
+  
+  .card-par3{
+    margin-bottom: 8rem;
+  }
+}
+
+@media (max-width: 993px) {
+  .prod-card {
+    width: 27vw;
+  }
+
+  .card-par1 {
+    margin-bottom: 8.4rem;
+  }
+  
+  .card-par3{
+    margin-bottom: 8.4rem;
+  }
+}
+
+@media (max-width: 905px) {
+  .card-par {
+    font-size: 12px;
+  }
+
+  .prod-card:hover {
+    width: 17rem;
+  }
+
+  .prodheader{
+    font-size: 1.25rem;
+  }
+
+  .card-par1 {
+    margin-bottom: 8rem;
+  }
+  
+  .card-par3{
+    margin-bottom: 8rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .prod-card-back {
+    height: auto;
+  }
+
+  .prod-card {
+    margin-top: 5rem;
+    width: 50vw;
+  }
+
+  .prod-card:hover {
+    width: 54vw;
+  }
+
+  .prod-card3 {
+    margin-bottom: 5rem;
+  }
+
+  .prodheader {
+    font-size: xx-large;
+  }
+
+  .card-par {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 700px) {
+  .prod-card {
+    width: 64vw;
+  }
+
+  .prod-card:hover {
+    width: 67vw;
+  }
+
+  .card-par1 {
+    margin-bottom: 2rem;
+  }
+  
+  .card-par3{
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 519px) {
+  .prodheader {
+    font-size: 27px;
+  }
+
+  .card-par {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 470px) {
+  .prod-card {
+    width: 73vw;
+  }
+
+  .prod-card:hover {
+    width: 76vw;
+  }
+}
+
+@media (max-width: 384px) {
+  .prod-card {
+    width: 80vw;
+  }
+
+  .prod-card:hover {
+    width: 83vw;
+  }
+
+  .prodheader {
+    font-size: 23px;
+  }
+
+  .card-par {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 300px) {
+  .prodheader {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 260px) {
+  .prodheader {
+    font-size: 18px;
+  }
+}
+
+
 /* testamonials */
 #wrapper {
   width: 100%;
