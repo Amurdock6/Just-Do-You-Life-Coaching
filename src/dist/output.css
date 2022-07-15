@@ -601,6 +601,10 @@ video {
   left: 0px;
 }
 
+.right-12{
+  right: 3rem;
+}
+
 .col-auto{
   grid-column: auto;
 }
@@ -1221,10 +1225,6 @@ video {
     right: 16rem;
   }
 
-  .svg\:block{
-    display: block;
-  }
-
   .svg\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -1240,16 +1240,8 @@ video {
     right: 0px;
   }
 
-  .mdnav\:right-12{
-    right: 3rem;
-  }
-
   .mdnav\:-top-32{
     top: -8rem;
-  }
-
-  .mdnav\:right-32{
-    right: 8rem;
   }
 
   .mdnav\:mx-4{
@@ -1303,10 +1295,6 @@ video {
 
   .mdnav\:mt-40{
     margin-top: 10rem;
-  }
-
-  .mdnav\:mr-8{
-    margin-right: 2rem;
   }
 
   .mdnav\:block{
@@ -1371,10 +1359,6 @@ video {
 
   .mdnav\:pb-0{
     padding-bottom: 0px;
-  }
-
-  .mdnav\:pr-8{
-    padding-right: 2rem;
   }
 
   .mdnav\:text-xl{
