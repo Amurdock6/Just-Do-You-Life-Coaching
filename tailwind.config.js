@@ -12,7 +12,8 @@ module.exports = {
         customlightgray: '#D2D2D2',
         customgray: '#ddd',
         customdropdownback: '#f9f9f9',
-        customdarkteal: '#005050'
+        customdarkteal: '#005050',
+        custombackpop: 'rgba(0, 0, 0, 0.8);'
       },
       fontFamily: {
         Lora: ["Lora", "serif"]
@@ -43,13 +44,15 @@ module.exports = {
         '18': '4.5rem',
         '10.75': '10.75rem',
         '12.5': '3.25rem',
-        '22': '5.5rem'
+        '22': '5.5rem',
+        '23': '23vh'
       },
       margin: {
         '4.30rem': '4.30rem'
       },
       gridTemplateColumns: {
-        'customcolumns': '75% 25%'
+        'customcolumns': '75% 25%',
+        'contentpagecol': '40% 60%'
       },
       backgroundImage: {
         'topographic': "url('/src/images/topographic.webp')"
