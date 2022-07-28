@@ -1,4 +1,3 @@
-
 // Nav Bar JS Dynamic Styling
 const burgerXButton = document.querySelector("#burgerXButton");
 const burger = document.querySelector("#burger");
