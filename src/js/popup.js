@@ -1,7 +1,12 @@
 // Pop on Click Close/ Open logic
 const popXClose = document.querySelector("#popclosex");
+const popgiftclosex = document.querySelector("#popgiftclosex");
 const closepop = document.querySelector("#close");
 const popupback = document.querySelector("#popup");
+const popup = document.querySelector(".popup");
+const closeformpop = document.querySelector("#closeformpop");
+const freegiftpopup = document.querySelector(".freegiftpopup");
+
 
 if(window.location.href == "http://localhost:5500/index.html#contactform") {
     popupback.classList.add('hidden');
@@ -32,31 +37,47 @@ function checkCookie() {
     var myCookie = getCookie("poppedup");
 
     if (myCookie == null) {
-        popXClose.addEventListener('click', () => {
-            if(popupback.classList.contains('hidden')) {
-                popupback.classList.remove('hidden');
-                popupback.classList.add('block');
-            } else {
-                popupback.classList.remove('block');
-                popupback.classList.add('hidden');
-            }
-        
+        closeformpop.addEventListener('click', () => {
+            freegiftpopup.classList.remove('block');
+            freegiftpopup.classList.add('hidden');
+            popup.classList.remove('hidden');
+            popup.classList.add('block');
         });
-        
-        closepop.addEventListener('click', () => {
-            if(popupback.classList.contains('hidden')) {
-                popupback.classList.remove('hidden');
-                popupback.classList.add('block');
-            } else {
-                popupback.classList.remove('block');
-                popupback.classList.add('hidden');
-            }
-        });
-        
-        document.cookie = "poppedup=true";
 
-    }
-    else {
+            popXClose.addEventListener('click', () => {
+                if(popupback.classList.contains('hidden')) {
+                    popupback.classList.remove('hidden');
+                    popupback.classList.add('block');
+                } else {
+                    popupback.classList.remove('block');
+                    popupback.classList.add('hidden');
+                }
+            });
+
+            popgiftclosex.addEventListener('click', () => {
+                if(popupback.classList.contains('hidden')) {
+                    popupback.classList.remove('hidden');
+                    popupback.classList.add('block');
+                } else {
+                    popupback.classList.remove('block');
+                    popupback.classList.add('hidden');
+                }
+            });
+            
+            closepop.addEventListener('click', () => {
+                if(popupback.classList.contains('hidden')) {
+                    popupback.classList.remove('hidden');
+                    popupback.classList.add('block');
+                } else {
+                    popupback.classList.remove('block');
+                    popupback.classList.add('hidden');
+                }
+            });
+    
+            document.cookie = "poppedup=true";
+        
+
+    } else {
         popupback.classList.remove('block');
         popupback.classList.add('hidden');
     }
