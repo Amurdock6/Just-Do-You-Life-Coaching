@@ -24,6 +24,7 @@ module.exports = {
         'footerscreen': '1255px',
         'mdnav': '1100px',
         'mdprodcard': '1001px',
+        'coachpagemd': '850px',
         'prodchange': '800px',
         'testomnial': '511px',
         'xsm': '484px',
