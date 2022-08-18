@@ -1097,6 +1097,10 @@ nav#nav {
   background-color: #005050;
 }
 
+.form-pop-text {
+  font-size: 1.5rem;
+}
+
 @media (max-width: 1000px) {
   .freegiftpopup {
     width: 600px;
@@ -1133,16 +1137,16 @@ nav#nav {
 
   .comp-pop {
     font-size: 15px;
-}
+  }
 
-.freegiftpopup ol {
-  font-size: 12px;
-}
+  .freegiftpopup ol {
+    font-size: 12px;
+  }
 
-.freegiftpopup i {
-  width: 370px;
-  font-size: 1.25rem;
-}
+  .freegiftpopup i {
+    width: 370px;
+    font-size: 1.25rem;
+  }
 
   .freegiftpopup #closeformpop {
     margin-top: 50px;
@@ -1159,6 +1163,10 @@ nav#nav {
 @media (max-width: 440px) {
   .freegiftpopup {
     width: 366px;
+  }
+
+  .form-pop-text {
+    font-size: 0.875rem;
   }
 
   .freegiftpopup i {
