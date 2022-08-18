@@ -963,10 +963,20 @@ nav#nav {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.grid-content-re {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media (max-width: 1400px) {
+  .grid-content-re {
+    display: inline;
+  }
+}
+
 @media(max-width: 900px) {
   .grid-content {
     display: inline;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -1085,9 +1095,32 @@ nav#nav {
   height: 100vh;
 }
 
+.coach-sect-re {
+  margin-top: 8rem;
+  height: 100vh;
+}
+
+.coach-sect-sp {
+  margin-top: 0rem;
+  height: 100vh;
+  display: inline;
+}
+
 .text-box-content {
   padding-left: 67px;
   padding-right: 88px;
+}
+
+.text-box-content-re {
+  padding-left: 67px;
+  padding-right: 88px;
+}
+
+.text-box-content-spear {
+  padding-left: 67px;
+  padding-right: 88px;
+  margin-top: 5vh;
+  margin-bottom: 17vh;
 }
 
 .text-content {
@@ -1096,10 +1129,26 @@ nav#nav {
   font-size: 1.5rem;
 }
 
+.text-content-re {
+  padding-top: 10px;
+  margin-bottom: 3.5vh;
+  font-size: 1.2rem;
+}
+
 .header-text {
   margin-top: 34px;
   font-size: 3.5rem;
   line-height: 1;
+}
+.header-text-re {
+  margin-top: 0px;
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.spear-page-image {
+  height: 70vh;
+  width: 100vw;
 }
 
 .button-content {
@@ -1110,6 +1159,34 @@ nav#nav {
 @media (min-width: 2150px) {
   .header-text {
     font-size: 3.75rem;
+  }
+}
+
+@media (max-width: 1415px) {
+  .coach-sect-re {
+    height: 120vh;
+  }
+}
+
+@media (max-width: 1400px) {
+  .coach-sect-re {
+    margin-top: 0;
+  }
+
+  .relation-page-image {
+    width: 100vw;
+    height: 70vh;
+    margin-bottom: 1vh;
+  }
+
+  .text-box-content-re {
+    margin-top: 5vh;
+    margin-bottom: 17vh;
+  }
+
+  .text-box-content-spear {
+    margin-top: 5vh;
+    margin-bottom: 17vh;
   }
 }
 
@@ -1136,6 +1213,12 @@ nav#nav {
 
   .coach-sect {
     height: 60vh;
+  }
+}
+
+@media (max-width: 950px) {
+  .relation-page-image {
+    height: 48vh;
   }
 }
 
@@ -1171,6 +1254,16 @@ nav#nav {
 }
 
 @media (max-width: 415px) {
+  .text-box-content-re {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .text-box-content-spear {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
   .coach-page-image {
     height: 40vh;
   }
@@ -1204,7 +1297,6 @@ nav#nav {
     margin-top: 34vh;
     padding-left: 35px;
     padding-right: 35px;
-
   }
 
   .header-text {
@@ -1213,6 +1305,18 @@ nav#nav {
 
   .text-content {
     font-size: 1.1rem;
+  }
+
+  .header-text-re {
+    font-size: 2.3rem;
+  }
+
+  .text-content-re {
+    font-size: 1rem;
+  }
+
+  .relation-page-image {
+    height: 37vh;
   }
 }
 
