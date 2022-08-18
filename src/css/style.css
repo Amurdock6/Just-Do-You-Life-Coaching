@@ -986,8 +986,8 @@ nav#nav {
 }
 
 .freegiftpopup {
-  width: 600px;
-  background-color: #B0B0B0;
+  width: 850px;
+  background-color: #ffffff;
   border-radius: 6px;
   position: absolute;
   top: 50%;
@@ -1001,7 +1001,7 @@ nav#nav {
 .freegiftpopup i {
   display: flex;
   justify-content: end;
-  width: 550px;
+  width: 800px;
   font-size: 1.5rem;
   padding-top: 13px;
 }
@@ -1009,11 +1009,19 @@ nav#nav {
 .freegiftpopup h2 {
   font-size: 46px;
   font-weight: 500;
-  margin: 16px 0 20px;
+  margin: 16px 0 4px;
 }
 
-.freegiftpopup p {
-  font-size: x-large;
+.freegiftpopup ol {
+  list-style: auto;
+  text-align: left;
+  padding-left: 30px;
+  font-size: 18px;
+}
+
+.comp-pop {
+  font-size: 29px;
+  padding-bottom: 8px;
 }
 
 .freegiftpopup #closeformpop {
@@ -1039,7 +1047,7 @@ nav#nav {
 
 .popup {
   width: 400px;
-  background-color: #B0B0B0;
+  background-color: #fff;
   border-radius: 6px;
   position: absolute;
   top: 50%;
@@ -1047,7 +1055,7 @@ nav#nav {
   transform: translate(-50%, -50%);
   text-align: center;
   padding: 0 30px 30px;
-  color: #333;
+  color: #000;
 }
 
 .popup i {
@@ -1065,7 +1073,7 @@ nav#nav {
 }
 
 .popup p {
-  font-size: x-large;
+  font-size: 1.25rem;
 }
 
 .popup #close {
@@ -1087,6 +1095,147 @@ nav#nav {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
   background-color: #005050;
+}
+
+@media (max-width: 1000px) {
+  .freegiftpopup {
+    width: 600px;
+  }
+
+  .freegiftpopup i {
+    width: 550px;
+  }
+
+  .freegiftpopup h2 {
+    font-size: 32px;
+    margin: 0px 0 4px;
+  }
+
+  .comp-pop {
+    font-size: 22px;
+  }
+
+  .freegiftpopup ol {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 650px) {
+  .freegiftpopup {
+    width: 400px;
+    padding: 0 14px 15px;
+  }
+
+  .freegiftpopup h2 {
+    font-size: 20px;
+    margin: 0px 0 4px;
+  }
+
+  .comp-pop {
+    font-size: 15px;
+}
+
+.freegiftpopup ol {
+  font-size: 12px;
+}
+
+.freegiftpopup i {
+  width: 370px;
+  font-size: 1.25rem;
+}
+
+  .freegiftpopup #closeformpop {
+    margin-top: 50px;
+    width: 100%;
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+}
+
+@media (max-width: 440px) {
+  .freegiftpopup {
+    width: 366px;
+  }
+
+  .freegiftpopup i {
+    width: 336px;
+  }
+
+  .freegiftpopup ol {
+    font-size: 13.5px;
+    padding-left: 18px;
+  }
+
+  .popup {
+    width: 300px;
+  }
+
+  .popup i {
+    width: 252px;
+  }
+
+  .popup h2 {
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0px 0 0px;
+}
+
+.popup p {
+  font-size: 1.25rem;
+}
+
+.popup {
+  padding: 0 14px 30px;
+}
+
+}
+
+@media (max-width: 380px) {
+  .freegiftpopup {
+    width: 284px;
+    padding: 0 10px 5px;
+  }
+
+  .freegiftpopup i {
+    font-size: 1.25rem;
+    padding-top: 7px;
+    width: 264px;
+  }
+
+  .freegiftpopup h2 {
+    font-size: 15px;
+    margin: 0;
+  }
+
+  .freegiftpopup ol {
+    padding-left: 16px;
+    font-size: 10.5px;
+  }
+
+  .comp-pop {
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+
+  .freegiftpopup #closeformpop {
+    font-size: 1.15rem;
+    line-height: 1.25rem;
+    margin-top: 23px;
+  }
+}
+
+@media (max-width: 300px) {
+  .popup {
+    width: 241px;
+  }
+
+  .popup i {
+    width: 212px;
+  }
 }
 
 /* Coaching Page's CSS */

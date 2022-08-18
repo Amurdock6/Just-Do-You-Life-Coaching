@@ -12,9 +12,9 @@ burgerXButton.addEventListener('click', () => {
         menu.classList.add('flex');
         menu.classList.add('w-full');
         menu.classList.add('h-screen');
+        nav.classList.add('fixed');
         nav.classList.add('h-screen');
         nav.classList.remove('items-center');
-        nav.classList.add('absolute')
         burgerWrapper.classList.remove('items-center');
         burger.classList.add('items-center');
         burger.classList.add('flex');
@@ -27,7 +27,7 @@ burgerXButton.addEventListener('click', () => {
         menu.classList.remove('h-screen');
         nav.classList.remove('h-screen');
         nav.classList.add('items-center');
-        nav.classList.remove('absolute');
+        nav.classList.remove('fixed');
         burgerWrapper.classList.add('items-center');
         burger.classList.remove('items-center');
         burger.classList.remove('flex');

@@ -26,8 +26,10 @@ module.exports = {
         'mdprodcard': '1001px',
         'coachpagemd': '850px',
         'prodchange': '800px',
+        'popupform': '650px',
         'testomnial': '511px',
         'xsm': '484px',
+        'sdsm': '450px',
         'sxsm': '340px'
       },
       height: {
